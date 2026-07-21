@@ -1,12 +1,13 @@
 /* ===== 전체 설정 (여기서 색/폰트/여백을 바꾸세요) ===== */
 :root {
   --text: #222;        /* 글자 색 */
-  --link: #E5CCFF;     /* 링크 색 */
+  --link: #33FFFF;     /* 링크 색 */
   --max-width: 680px;  /* 본문 최대 너비 */
 }
 
 body {
   font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;        /* ← 이 줄 추가 (더 작게 하려면 0.85 등) */
   color: var(--text);
   line-height: 1;
   margin: 0;
@@ -19,13 +20,16 @@ main {
 }
 
 h1 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
 
+h2 {
+  font-size: 1.2rem;   /* ← 이름 크기. 더 줄이려면 1.1 등 */
+  margin: 0;
+}
+
 h3 {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 4px;
   margin-top: 2rem;
 }
 
@@ -52,7 +56,10 @@ a:hover { text-decoration: underline; }
 
 .profile-text p { margin: 4px 0; }
 
-ul { padding-left: 1.2rem; }
+ul { 
+  list-style: none;
+  padding-left: 0; 
+}
 li { margin: 6px 0; }
 
 /* ===== 세부 페이지에서 홈으로 돌아가는 링크 ===== */
