@@ -2,7 +2,7 @@
 :root {
   --text: #222;        /* 글자 색 */
   --link: #26f5f5;     /* 링크 색 */
-  --max-width: 680px;  /* 본문 최대 너비 */
+  --max-width: 900px;  /* 본문 최대 너비 */
 }
 
 body {
