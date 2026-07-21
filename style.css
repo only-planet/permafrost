@@ -36,10 +36,21 @@ h3 {
   padding: 2px 6px;
 }
 
-h2:hover, h3:hover {
+h2:hover {
+  font-size: 1rem;   /* ← 이름 크기. 더 줄이려면 1.1 등 */
   display: inline;
   background-color: #000000;
   color: #ffffff;
+  margin-bottom: 1.5rem;
+  padding: 2px 6px;
+}
+
+h3:hover {
+  font-size: 1rem;   /* ← 이름 크기. 더 줄이려면 1.1 등 */
+  display: inline;
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 2rem;
   padding: 2px 6px;
 }
 
@@ -70,7 +81,14 @@ a:hover {
   object-fit: cover;
 }
 
-.profile-text p { margin: 4px 0; }
+.profile-text p { 
+  margin: 6px 0; 
+  padding: 2px 6px;
+}
+
+.education li {
+  padding: 2px 6px;
+}
 
 ul { 
   list-style: none;
