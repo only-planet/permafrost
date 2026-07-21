@@ -33,16 +33,22 @@ h3 {
   margin-top: 2rem;
 }
 
-h1:hover, h2:hover, h3:hover {
+h2:hover, h3:hover {
+  display: inline;
   background-color: #000000;
+  color: #ffffff;
+  padding: 2px 2px;
 }
 
 a {
   color: var(--link);
   text-decoration: none;
 }
+
 a:hover {
-  background-color:  #00000;
+  background-color:  #000000;
+  color: #ffffff;
+  padding: 2px 2px;
   text-decoration: none;
 }
 
